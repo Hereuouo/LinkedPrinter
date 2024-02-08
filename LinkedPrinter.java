@@ -37,9 +37,9 @@ public class LinkedPrinter
         // Create list/stack of LinkedPrinter
         LinkedPrinter Printer=new LinkedPrinter();
         // Add contect to Printer using addPaper
-        Printer.addPaper("page 1");
-        Printer.addPaper("page 2");
-        Printer.addPaper("page 3");
+        Printer.addPaper("page One");
+        Printer.addPaper("page Two");
+        Printer.addPaper("page Three");
         // Display the document using printDocument
         Printer.printDocument();
     }
